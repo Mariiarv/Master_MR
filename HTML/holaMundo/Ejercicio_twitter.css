@@ -1,0 +1,59 @@
+.datos{
+    border-style: solid;
+}
+.encabezado{
+    display:flex;
+    justify-content: flex-start;
+    font-family: Cambria;
+    align-items:center;
+    gap: 20px;
+}
+.Twitter{
+    background-color: rgb(214, 230, 253);
+    border-style:solid;
+    border-radius: 10px;
+    border-top-style:double;
+    font-weight:lighter;
+    justify-content: center;
+    padding: 20px;
+}
+    
+.hijos{
+    line-height: 0;
+}
+
+#logo{
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 1.5px;
+}
+.hijo1{
+    display: inline-block;
+    align-items: center;
+    flex-direction:;
+}
+.comentarios{
+    display: flex;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 0.1px;
+    font-family: Cambria;
+    justify-content:flex-start;
+    gap:20px
+}
+
+.fecha{
+    color: blue;
+}
+
+.imagenes{
+    display:flex;
+    justify-content: space-around;
+    position: relative;
+    top: 10px;
+}
+
+.imagenes:hover{
+    cursor:cell;
+}
+

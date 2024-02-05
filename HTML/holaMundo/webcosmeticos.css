@@ -1,0 +1,32 @@
+#estilo{
+    color:aquamarine
+}
+
+p{
+    font-size: 15px;
+}
+
+button{
+    padding: 10px;
+    margin: 10px;
+    color: blue;
+}
+
+#elemento-padre{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: ;
+    height: 30px;
+}
+
+.elemento-hijo{
+    padding: 15px;
+    background-color:blue ;
+    border-radius: 15px;
+    margin: 15px
+}
+
+#enlace2{
+    height: 200px;
+}

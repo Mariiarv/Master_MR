@@ -1,0 +1,40 @@
+body{
+    color:gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 0.5;
+}
+#padre{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.boton1{
+    color:black;
+    background-color: aqua;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 5px;
+    border-width: 1px;
+}
+.boton1:hover{
+    background-color:greenyellow;
+}
+.boton2{
+    color:black;
+    background-color: rgb(196, 196, 255);
+    border-radius: 5px;
+    margin:0px;
+    padding: 5px;
+    border-width: 1px;
+}
+.boton2:hover{
+    background-color:greenyellow;
+}
+.boton3{
+    color:black;
+    background-color:blueviolet;
+    border-radius: 5px;
+    margin:0px;
+    padding: 5px;
+    border-width: 1px;
+}
