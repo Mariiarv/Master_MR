@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family:monospace;
+
+    & .componente{
+        margin: 5%;
+        border-style: solid;
+        padding: 5%;
+        border-radius: 5%;
+        background-color:rgba(206, 172, 253, 0.268);
+
+        & header{
+            display:flex;
+            align-items: center;
+            gap:5%;
+
+            & img{
+                width: 100px; 
+            }
+        }
+
+        & .botones{
+            display:flex;
+            justify-content: space-evenly;
+
+            & button{
+              padding: 3%;
+              border-radius: 10px;
+              background-color: rgba(53, 88, 242, 0.312);
+            }
+        
+        }
+    }
+
+
+}
+
+.oscuro{
+    background-color: black;
+}
